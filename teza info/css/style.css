@@ -152,6 +152,8 @@ figure {
 .fh5co-hero.fh5co-hero-2 .fh5co-overlay {
   position: absolute !important;
   width: 100%;
+  height:100%;
+  background-size:contain;
   top: 0;
   left: 0;
   bottom: 0;
