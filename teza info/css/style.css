@@ -7,10 +7,55 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
+
+#content div.home div.aside {
+	float: left;
+	height: auto;
+	padding: 0 0 0 150px;
+	width: 430px;
+}
+
+#content div#about div.aside, #content div#services div.aside {
+	float: left;
+	padding: 0;
+	width: 420px;
+}
+
+#content div#about div.section, #content div#services div.section {
+	float: right;
+	padding: 15px 0 0;
+	width: 420px;
+}
+
+#footer div#navigation div ul li.first {
+	border: 0;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+middlephoto {
+  display: block;
+  margin-left: 100px;
+  margin-right: auto;
+  width: 50%;
+  align:center;
+
+}
+
 body {
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.6;
